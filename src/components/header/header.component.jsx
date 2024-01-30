@@ -13,6 +13,7 @@ const HeaderComponent = () => {
                 <span>English <ExpandMoreIcon /></span>
             </div>
             <header>
+                <div className="container">
                 <div className="header-left">
                     <a href="#home" className="logo"><img src={logo} alt="" /></a>
                 </div>
@@ -31,6 +32,7 @@ const HeaderComponent = () => {
                     </div>
                     <FavoriteBorderIcon className='heart-icon'/>
                     <ShoppingCartIcon className='cart-icon'/>
+                </div>
                 </div>
             </header>
         </>

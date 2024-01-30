@@ -1,0 +1,11 @@
+ul.navigations {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-right: 1px solid gray;
+    padding-right: 100px;
+}
+
+ul.navigations li a {
+    color: #000;
+}
